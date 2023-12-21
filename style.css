@@ -1,0 +1,83 @@
+.flex-container>div{
+   background-color: #fff;
+   margin: 5px;
+   padding: 10px;
+   font-size: 20px;
+   width: 100px;
+   text-align: center;
+}
+.flex-container{
+    display: flex;
+    background-color: chocolate;
+    flex-flow:row-reverse; 
+    justify-content: center;
+}
+.flex-contain{
+    display: flex;
+    background-color: chocolate;
+    flex-wrap: wrap;
+    height: 100px;
+    overflow: auto;
+}
+.flex-contain>div{
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+ }
+ .flx-contain{
+    display: flex;
+    background-color: chocolate;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    height: 100px;
+    overflow: auto;
+}
+.flx-contain>div{
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+ }
+#bx1{
+     order: 4;
+}
+#bx2{
+    order: 6;
+}
+#bx3{
+    order: 5;
+    flex-shrink: 1;
+}
+#bx4{
+    order: 2;
+}
+#bx5{
+    order: 3;
+}
+#bx6{
+    order: 1;
+}
+.fx-contain{
+    display: flex;
+    background-color: chocolate;
+}
+.fx-contain>div{
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+ }
+ #b3{
+    flex-shrink: 1;
+    align-self: center;
+ }
+ #b1{
+    align-self: flex-start;
+ }
+ #b2{
+    align-self: flex-end;
+ }
